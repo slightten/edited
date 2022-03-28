@@ -10066,7 +10066,7 @@ end)
 addcmd('remotespy',{'rspy'},function(args, speaker)
 	notify("Loading",'Hold on a sec')
 	-- Full credit to exx, creator of SimpleSpy
-	loadstring(game:HttpGet("https://gist.githubusercontent.com/luatsuki/c75a272fb67bccc22bd1b6add92ee267/raw/56375f8536aeca0cc84b44032312efb0fa5b7fa0/Spy"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/slightten/edited/main/rspy"))()
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
