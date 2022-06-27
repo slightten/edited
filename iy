@@ -10020,7 +10020,7 @@ addcmd('console',{},function(args, speaker)
 end)
 
 addcmd('explorer',{'dex'},function(args, speaker)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/slightten/edited/main/Dex%20by%20HamstaGang'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 end)
 
 addcmd('remotespy',{'rspy'},function(args, speaker)
